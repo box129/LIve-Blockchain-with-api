@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 const API_URL = "https://api.blockchain.com/v3/exchange/tickers/";
-const API_KEY = 'bc3187eb-072c-4ca3-929a-76831d5f2f99';
+const API_KEY = 'XXX';
 
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
